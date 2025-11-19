@@ -37,7 +37,7 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         driverManagerDataSource.setDriverClassName("com.mysql.jdbc.Driver");
         driverManagerDataSource.setUrl("jdbc:mysql://localhost:3306/tsubasa_javaweb_session07?createDatabaseIfNotExist=true");
         driverManagerDataSource.setUsername("root");
-        driverManagerDataSource.setPassword("12345678");
+        driverManagerDataSource.setPassword("16122002");
         return driverManagerDataSource;
     }
 
